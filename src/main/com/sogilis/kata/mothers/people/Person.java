@@ -18,6 +18,8 @@ public abstract class Person {
         this.gender = gender;
     }
 
+    //TODO : validate that a person age is between 0 and 150
+
     public static PersonBuilder builder() {
         return new PersonBuilder();
     }

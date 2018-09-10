@@ -21,6 +21,9 @@ public class Doctor extends Medic {
         this.workingServices = workingServices;
     }
 
+    //TODO : validates that doctor has at least one specialty
+    //TODO : 
+
     public static DoctorBuilder builder() {
         return new DoctorBuilder();
     }

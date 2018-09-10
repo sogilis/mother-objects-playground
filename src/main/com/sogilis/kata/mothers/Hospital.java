@@ -24,6 +24,7 @@ public class Hospital {
 
     //TODO All OR on the same floor
     //TODO All rooms have disctinct number
+    //TODO Hospital has at least one doctor for each specialty
 
     public static HospitalBuilder builder() {
         return new HospitalBuilder();

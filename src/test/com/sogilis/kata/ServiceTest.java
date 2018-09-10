@@ -34,4 +34,6 @@ public class ServiceTest {
             Assert.assertEquals(e.getMessage(),"specialty of director does not match service's one");
         }
     }
+
+    //TODO : make a test that successfully validates a service
 }

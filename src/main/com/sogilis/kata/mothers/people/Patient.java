@@ -23,6 +23,9 @@ public class Patient extends Person {
         this.admissionDate = admissionDate;
     }
 
+    //TODO : validate that doctor specialty is the same as the specilaty the patient is treated for
+    //TODO : validate that patient is in the approriate service
+
     public static PatientBuilder builder() {
         return new PatientBuilder();
     }

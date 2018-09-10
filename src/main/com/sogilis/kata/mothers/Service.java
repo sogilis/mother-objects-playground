@@ -46,6 +46,9 @@ public class Service {
     public void validate() throws InvalidServiceException {
         directorMatchesSpecialty();
         noRoomOverloading();
+        //TODO : no service overloading
+        //TODO : no more than 2 patients does not match specialty of service
+        //TODO : director has at least 5 years of experience in the service
     }
 
     /**
