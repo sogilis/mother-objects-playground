@@ -5,7 +5,6 @@ import com.sogilis.kata.mothers.people.Doctor;
 import com.sogilis.kata.mothers.people.Medic;
 import com.sogilis.kata.mothers.people.Nurse;
 import com.sogilis.kata.mothers.people.Patient;
-import lombok.NonNull;
 
 import java.util.List;
 import java.util.Optional;
@@ -76,7 +75,6 @@ public class Service {
         }
     }
 
-    @NonNull
     public Speciality getSpeciality() {
         return this.speciality;
     }
@@ -89,17 +87,14 @@ public class Service {
         return this.manager;
     }
 
-    @NonNull
     public List<Medic> getCurrentWorkers() {
         return this.currentWorkers;
     }
 
-    @NonNull
     public List<Patient> getCurrentPatients() {
         return this.currentPatients;
     }
 
-    @NonNull
     public List<Room> getRooms() {
         return this.rooms;
     }
